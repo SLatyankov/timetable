@@ -1,0 +1,42 @@
+body { 
+  font-size: 18px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+p {
+  margin: 5px;
+  line-height: 24px;
+}
+.date, .time, .event {
+  margin-bottom: 2px;
+  text-align: center;
+  
+}
+
+.event {
+  text-align: left;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 1fr 1fr 1fr;
+}
+
+.r {
+  border-radius: 1px solid#666;
+}
+.dedline {
+  background-color: rgb(240, 30, 30);
+}
+
+.newTask {
+  background-color: rgb(238, 238, 172)
+}
+
+.freeDay {
+  background-color: rgb(181, 226, 240)
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 5fr ;
+  margin-bottom: 30px;
+}
