@@ -28,8 +28,12 @@ h3 {
   text-align: left;
 }
 .wrapper{
+  padding: 10px;
+  margin: auto;
+  max-width: 700px;
+border: 3px solid #bebd12;
   display: grid;
-  grid-template-columns: 1fr 1fr 8fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 8fr 1fr 1fr 0.1fr;
 }
 
 .dedline {
@@ -37,16 +41,15 @@ h3 {
 }
 
 .newTask {
-  background-color: rgb(238, 238, 172)
+  background-color: rgb(238, 238, 172);
 }
 
 .freeDay {
-  background-color: rgb(181, 226, 240)
+  background-color: rgb(181, 226, 240);
 }
 .wrapper2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 5fr ;
-  /* margin-bottom: 30px; */
 }
 .oldLink>a {
   color: #677c74;
