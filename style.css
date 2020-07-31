@@ -11,6 +11,9 @@ a {
   text-decoration: none;
   color: rgb(61, 101, 211);
 }
+h3 {
+  color: red;
+}
 
 .date, .time, .event, .newLink, .oldLink {
   margin-bottom: 2px;
@@ -30,7 +33,7 @@ a {
   border-radius: 1px solid#666;
 }
 .dedline {
-  background-color: rgb(240, 30, 30);
+  background-color: rgb(219, 58, 58);
 }
 
 .newTask {
@@ -43,7 +46,7 @@ a {
 .wrapper2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 5fr ;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .oldLink>a {
   color: #677c74;
